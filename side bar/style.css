@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#c6edfd ;
+}
+.sidebar{
+    width: 20vw;
+    background: white;
+    padding: 20px;
+    height: 120vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Glow{
+    color: lightskyblue;
+}
+.new-project{
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color:#007bff ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+.nav-item{
+text-decoration: none;
+color:#333 ;
+padding: 10px;
+border-radius: 5px;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.nav-item.active{
+    background-color:#e7f1ff ;
+    color: #007bff;
+}
+.nav-item i{
+    font-style: normal;
+}
+.bottom-section{
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bottom-section a ,
+.logout{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #333;
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.close-btn{
+    background-color: rgb(254, 251, 251);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
